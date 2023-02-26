@@ -1,8 +1,11 @@
 # spring-petclinic
 
-## GitHub Repository
+## Resources
 
-https://github.com/SarahBornais/spring-petclinic
+|   |   |
+|---|---|
+|__GitHub Repository__| https://github.com/SarahBornais/spring-petclinic |
+|__Pre-Built Files__| [/builds](./builds/) |
 
 ## Requirements
 

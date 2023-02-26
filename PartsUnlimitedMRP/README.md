@@ -1,8 +1,11 @@
 # PartsUnlimitedMRP
 
-## GitHub Repository
+## Resources
 
-https://github.com/SarahBornais/PartsUnlimitedMRP
+|   |   |
+|---|---|
+|__GitHub Repository__| https://github.com/SarahBornais/PartsUnlimitedMRP |
+|__Pre-Built Files__| [/builds](./builds/) |
 
 ## Requirements
 

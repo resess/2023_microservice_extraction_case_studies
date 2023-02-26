@@ -1,8 +1,11 @@
 # JPetStore
 
-## GitHub Repository
+## Resources
 
-https://github.com/SarahBornais/jpetstore-6
+|   |   |
+|---|---|
+|__GitHub Repository__| https://github.com/SarahBornais/jpetstore-6 |
+|__Pre-Built Files__| [/builds](./builds/) |
 
 ## Requirements
 

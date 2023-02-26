@@ -1,8 +1,13 @@
 # 7ep-demo
 
-## GitHub Repository
+## Resources
 
-https://github.com/SarahBornais/demo
+|   |   |
+|---|---|
+|__GitHub Repository__| https://github.com/SarahBornais/demo |
+|__Pre-Built Files__| [/builds](./builds/) |
+
+
 
 ## Requirements
 

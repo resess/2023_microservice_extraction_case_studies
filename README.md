@@ -8,8 +8,6 @@ When selecting the case studies, we aimed to ensure that each case study can be 
 
 At the end of the process, we selected four case studies (listed in the table below), which include three monolithic applications used in prior literature and an additional monolithic application that was not used in prior work.
 
-We forked a particular version of each case study GitHub repository to ensure all tools use the same version in their decomposition. The link to this forked repository, together with some statistical data about the case study, instructions on how to build, run, and test it (if a tool requires that), pre-built Jar/War files for each case study, and a results template can be found in our case study package. We hope this information is helpful to reduce the effort required to participate in our study.
-
 The selected case studies are listed in the table below:
 
 | Case Study                                         | Instructions | GitHub Forked Repository | Framework | Number of Classes | Test Coverage |
@@ -19,7 +17,7 @@ The selected case studies are listed in the table below:
 | PartsUnlimitedMRP | [Instructions](./PartsUnlimitedMRP/) | [link](https://github.com/SarahBornais/PartsUnlimitedMRP)            | Spring    | 75                | 65%           | 
 | spring-petclinic   | [Instructions](./spring-petclinic/) | [link](https://github.com/SarahBornais/spring-petclinic)             | Spring    | 24                | 94%           | 
 
-The Instructions column in the table above contains a link to a directory we created, which includes instructions on how to build, run, and test the corresponding case study. The GitHub Forked Repository column in the table above, as well as each case study Instructions directory, also contains a link to the forked version of the case study repository in GitHub.
+The Instructions column in the table above contains a link to a directory we created, which includes instructions on how to build, run, and test the corresponding case study. We forked a particular version of each case study GitHub repository to ensure all tools use the same version in their decomposition. The GitHub Forked Repository column in the table above, as well as each case study Instructions directory, contains a link to this forked version. 
 
 ## Step 1. Building, Running, and Testing the Case Studies
 

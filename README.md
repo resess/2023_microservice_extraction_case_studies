@@ -17,7 +17,9 @@ The Instructions column in the table above contains a link to a directory we cre
 
 Depending on the needs of the microservice decomposition tool, it may be necessary to build, run, and/or test each of the case study applications. Instructions on how to do so are located in the `README` file under each of the case studies' Instructions directories.
 
-The Instructions’ `/builds` directory contains pre-built JAR and/or WAR files, depending on the type of application. These build files can be used as an input to the decomposition tools. If a tool requires additional input formats (e.g., instrumentation or similar), custom inputs can be created using the building, running, and testing instructions, as described in each case study Instructions directory (note: please use forked repository linked in the table above to perform any of these tasks).
+The Instructions’ `/builds` directory contains pre-built JAR and/or WAR files, depending on the type of application. These build files can be used as an input to the decomposition tools. 
+
+If a tool requires additional input formats (e.g., instrumentation or similar), custom inputs can be created using the building, running, and testing instructions, as described in each case study Instructions directory. __Note: please use forked repository linked in the table above to perform any of these tasks.__
 
 ## Step 2. Reporting results
 

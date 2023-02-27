@@ -2,7 +2,15 @@
 
 ## Introduction
 
-We provide four case studies on which to run the decomposition tools:
+This repository contains the case study package for comparison of microservice decomposition tools. 
+
+When selecting the case studies, we aimed to ensure that each case study can be processed by each of the tools participating in our study. Specifically, all selected projects are in Java and do not use any framework other than Spring. We made sure to build, run, and trigger tests for all the case studies and selected those with a relatively high test coverage. 
+
+At the end of the process, we selected four case studies (listed in the table below), which include three monolithic applications used in prior literature and an additional monolithic application that was not used in prior work.
+
+We forked a particular version of each case study GitHub repository to ensure all tools use the same version in their decomposition. The link to this forked repository, together with some statistical data about the case study, instructions on how to build, run, and test it (if a tool requires that), pre-built Jar/War files for each case study, and a results template can be found in our case study package. We hope this information is helpful to reduce the effort required to participate in our study.
+
+The selected case studies are listed in the table below:
 
 | Case Study                                         | Instructions | GitHub Forked Repository | Framework | Number of Classes | Test Coverage |
 | :-------------------------------------------------- | - | ----------- | --------- | ----------------- | ------------- | 
@@ -51,3 +59,5 @@ An example of the JSON structure is provided below. The first key, `my_tool` is 
   }
 }
 ```
+
+Please share the decomposition results, i.e., four JSON results files, by replying to the instructions email sent on February 26, 2023 within a month. Please direct any comments or questions to [microservice_decomposition_comparison@googlegroups.com](mailto:microservice_decomposition_comparison@googlegroups.com).

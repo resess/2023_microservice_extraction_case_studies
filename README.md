@@ -11,32 +11,19 @@ We provide four case studies on which to run the decomposition tools:
 | PartsUnlimitedMRP | [Instructions](./PartsUnlimitedMRP/README.md) | [link](https://github.com/SarahBornais/PartsUnlimitedMRP)            | Spring    | 75                | 65%           | 
 | spring-petclinic   | [Instructions](./spring-petclinic/README.md) | [link](https://github.com/SarahBornais/spring-petclinic)             | Spring    | 24                | 94%           | 
 
-
-
-This repository contains all the information necessary to build, run, and test each of the case studies. All the
-relevant information for each of the case studies is located under their respective directories in this repository.
+The Instructions column in the table above contains a link to a directory we created, which includes instructions on how to build, run, and test the corresponding case study. The GitHub Forked Repository column in the table above, as well as each case study Instructions directory, also contains a link to the forked version of the case study repository in GitHub.
 
 ## Step 1. Building, Running, and Testing the Case Studies
 
-Depending on the needs of the microservice decomposition tool, it may be necessary to build, run, and/or test each of the
-case study applications. Instructions on how to do so are located in the `README` file under each of the case studies'
-respective directories.
+Depending on the needs of the microservice decomposition tool, it may be necessary to build, run, and/or test each of the case study applications. Instructions on how to do so are located in the `README` file under each of the case studies' Instructions directories.
 
-The `/builds` directory under each of the case studies' directories contains pre-built JAR and/or WAR files, depending
-on the type of application. These build files can be used as an input to the decomposition tools. If the tool requires additional input formats (e.g., instrumentation or similar), custom inputs can be created using the building, running, and testing instructions, as described above.
+The Instructions’ `/builds` directory contains pre-built JAR and/or WAR files, depending on the type of application. These build files can be used as an input to the decomposition tools. If a tool requires additional input formats (e.g., instrumentation or similar), custom inputs can be created using the building, running, and testing instructions, as described in each case study Instructions directory.
 
 ## Step 2. Reporting results
 
-For consistency, we request that the tool's partitioning result be reported in a standard JSON format. We have provided
-an example of such an output for each of the four case studies in a `reporting-template.json` file in their respective 
-directories. These templates place all the classes in the given case study into a single partition, representing the
-current monolithic state of the case studies.
+Please report the tool partitioning result in the standard JSON format specified below. We have provided a template JSON output file, named `reporting-template.json`, pre-populated with the names of the classes of a case study, in its corresponding Instructions directory. These templates place all the classes of the given case study into a single partition, representing the current monolithic state of the case studies.
 
-An example of the JSON structure is provided below. The first key, `my_tool` is the name of the tool that created the 
-decomposition. In this example, the decomposition contains 2 partitions: `partition0`, and `partition1`. If a decomposition contains more than
-2 partitions, keys can `partition2`, `partition3`, etc. Each of the partition JSON objects contains
-an array of JSON objects representing the classes contained in the decomposition. Each of these class objects has only a
-single property, `id`, whose value is the name of the class it represents.
+An example of the JSON structure is provided below. The first key, `my_tool` is the name of the tool that created the decomposition. In this example, the decomposition contains 2 partitions: `partition0`, and `partition1`. If a decomposition contains more than 2 partitions, additional keys such as `partition2`, `partition3`, etc., can be added. Each of the partition JSON objects contains an array of JSON objects representing the classes contained in the decomposition. Each of these class objects has only a single property, `id`, whose value is the name of the class it represents.
 
 ```json
 {

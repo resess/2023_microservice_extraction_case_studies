@@ -6,10 +6,12 @@ We provide four case studies on which to run your decomposition tool:
 
 | Case Study                                         | Framework | Number of Classes | Test Coverage |
 | -------------------------------------------------- | --------- | ----------------- | ------------- | 
-| [JPetStore](./JPetStore/README.md)                 | Spring    | 24                | 64%           | 
-| [spring-petclinic](./spring-petclinic/README.md)   | Spring    | 24                | 94%           | 
-| [PartsUnlimitedMRP](./PartsUnlimitedMRP/README.md) | Spring    | 75                | 65%           | 
 | [7ep-demo](./7ep-demo/README.md)                   | None      | 47                | 93%           |
+| [JPetStore](./JPetStore/README.md)                 | Spring    | 24                | 64%           | 
+| [PartsUnlimitedMRP](./PartsUnlimitedMRP/README.md) | Spring    | 75                | 65%           | 
+| [spring-petclinic](./spring-petclinic/README.md)   | Spring    | 24                | 94%           | 
+
+
 
 This repository contains all the information necessary to build, run, and test each of the case studies. All the
 relevant information for each of the case studies is located under their respective directories in this repository.

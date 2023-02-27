@@ -6,10 +6,10 @@ We provide four case studies on which to run the decomposition tools:
 
 | Case Study                                         | Instructions | GitHub Forked Repository | Framework | Number of Classes | Test Coverage |
 | :-------------------------------------------------- | - | ----------- | --------- | ----------------- | ------------- | 
-| 7ep-demo                | [Instructions](./7ep-demo/README.md) | [link](https://github.com/SarahBornais/demo)             | None      | 47                | 93%           |
-| JPetStore                 | [Instructions](./JPetStore/README.md) | [link](https://github.com/SarahBornais/jpetstore-6)      | Spring    | 24                | 64%           | 
-| PartsUnlimitedMRP | [Instructions](./PartsUnlimitedMRP/README.md) | [link](https://github.com/SarahBornais/PartsUnlimitedMRP)            | Spring    | 75                | 65%           | 
-| spring-petclinic   | [Instructions](./spring-petclinic/README.md) | [link](https://github.com/SarahBornais/spring-petclinic)             | Spring    | 24                | 94%           | 
+| 7ep-demo                | [Instructions](./7ep-demo/) | [link](https://github.com/SarahBornais/demo)             | None      | 47                | 93%           |
+| JPetStore                 | [Instructions](./JPetStore/) | [link](https://github.com/SarahBornais/jpetstore-6)      | Spring    | 24                | 64%           | 
+| PartsUnlimitedMRP | [Instructions](./PartsUnlimitedMRP/) | [link](https://github.com/SarahBornais/PartsUnlimitedMRP)            | Spring    | 75                | 65%           | 
+| spring-petclinic   | [Instructions](./spring-petclinic/) | [link](https://github.com/SarahBornais/spring-petclinic)             | Spring    | 24                | 94%           | 
 
 The Instructions column in the table above contains a link to a directory we created, which includes instructions on how to build, run, and test the corresponding case study. The GitHub Forked Repository column in the table above, as well as each case study Instructions directory, also contains a link to the forked version of the case study repository in GitHub.
 

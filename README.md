@@ -57,5 +57,3 @@ An example of the JSON structure is provided below. The first key, `my_tool` is 
   }
 }
 ```
-
-Please share the decomposition results, i.e., four JSON results files, by replying to the instructions email sent on February 26, 2023 within a month. Please direct any comments or questions to [microservice_decomposition_comparison@googlegroups.com](mailto:microservice_decomposition_comparison@googlegroups.com).
